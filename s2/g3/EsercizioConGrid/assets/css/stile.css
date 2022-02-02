@@ -332,3 +332,22 @@ footer a {
     }
 }
 
+
+
+@media screen and (min-width:800px) {
+    main {
+        display: grid;
+        grid-template-columns: 65% 30%;
+        grid-gap: 5%;
+    }
+}
+
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+
+    aside section {
+        margin-top: 25px;
+        position: sticky;
+        top: 250px;
+    }
+}
