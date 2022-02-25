@@ -1,0 +1,70 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+body {
+  background: url(../img/nevemontagne.jpg) no-repeat fixed center;
+  padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px;
+  }
+
+
+.panel {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.panel-heading {
+  display: flex;
+}
+
+.panel-heading input {
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.panel-heading button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.list-group-item {
+  padding: 20px;
+  overflow: auto;
+}
+
+.list-group-item > span {
+  position: relative;
+  float: left;
+  max-width: 90%;
+  font: 1.4em 'Architects Daughter', cursive;
+  cursor: pointer;
+  padding-left: 25px;
+}
+
+.list-group-item > span::before {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  outline: 1px solid rgb(3, 3, 3);
+  border-radius: 10px;
+  background-color: rgb(71, 110, 155);
+}
+
+
+.panel-footer {
+  overflow: auto;
+}
+
+.panel-footer hr {
+  margin: 5px 0 10px;
+}
