@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(148, 212, 212)
+}
+
+.tabella{
+    position:relative;
+    margin:5%;
+    border-style: dashed;
+    border-color: rgb(88, 143, 168);
+    padding:5%;
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+
+    
+}
+
