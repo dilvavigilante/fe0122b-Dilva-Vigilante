@@ -65,11 +65,11 @@ class Vestiti {
 
 
 let maglia = new Vestiti(6, 2345, 'inverno', 'maglia', 2994, 9, 'verde', 16, 45.59, 'magazzino', 20)
-//console.log(maglia)
+console.log(maglia)
 let camicia = new Vestiti(7, 1134, 'autunno', 'camicia', 5689, 9, 'nero', 16, 37.89, 'magazzino', 20)
-//console.log(camicia)
+console.log(camicia)
 let jeans = new Vestiti(8, 8934, 'primavera', 'jeans', 3487, 9, 'grigio', 16, 65.79, 'negozio', 25)
-//console.log(jeans)
+console.log(jeans)
 
-// console.log(maglia.getsaldocapo());
+//console.log(maglia.getsaldocapo());
 // console.log(maglia.getacquistocapo());
